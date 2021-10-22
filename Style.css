@@ -1,0 +1,232 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/backgr.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+#content{
+    background-color: white;
+    width: 600px;
+    height: 887px;
+	border: 10px solid darkblue;
+	margin: 0 auto;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr.red{
+    border-top: 3px solid red;
+}
+#first{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: darkblue;
+    font-size: 17px;
+}
+#header{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: darkblue;
+    
+}
+#second{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: darkblue;
+    font-size: 17px;
+}
+#third{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: darkblue;
+}
+#forth{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: darkblue;
+    font-size: 17px;
+}
+hr.blu{
+    border-top: 3px solid blue;
+
+}
+hr.center{
+    border-top: 3px dashed red;
+    padding: 0%;
+}
+div.top{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    
+    border-top: 3px solid blue;
+    height: 50px;
+    width: 100px;
+    border-top-left-radius: 65px;
+    border-top-right-radius: 65px;
+}
+div.bottom{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-bottom: 3px solid blue;
+    height: 50px;
+    width: 100px;
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+}
+topLeft {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: left;
+}
+#submit{
+    width: 150px;
+    min-height: 40px;
+    display: inline-block;
+    font-size: 17px;
+    transition: 0.5s;
+    border: blue solid 2px;
+    background: lightcyan;
+}
+textarea{
+    resize: none;
+    border: 2px solid blue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    background: lightcyan;
+    transition: 0.5s;
+    width: 370px;
+}
+input{
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: lightcyan;
+    transition: 0.5s;
+    width: 370px;
+    height: 25px;
+}
+input:hover{
+    background: white;
+}
+
+#submit:hover {
+    background-color: darkblue;
+    color: whitesmoke;
+    cursor: pointer;
+    border: none;
+}
+select{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    border: blue solid 2px;
+    color: darkblue;
+    background: lightcyan;
+    transition: 0.5s;
+    width: 370px;
+    height: 25px;
+}
+textarea:focus-visible {
+    outline: 0px white solid;
+}
+.textarea:hover{
+    background: white;
+}
+.radio:hover{
+    cursor: pointer;
+}
+.radiocus{
+    align-items: center;
+}
+.radioin{
+    display: none;
+}
+select:hover{
+    cursor: pointer;
+    background: white;
+}
+.radio__radio{
+    display:inline-flex;
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 50px;
+    border: 2px solid darkblue;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.radio__radio:hover{
+    cursor: pointer;
+}
+p{
+    display:inline-flex;
+}
+.radio__radio::after{
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: "";
+    background: red;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.2s;
+}
+.radioin:checked + .radio__radio::after{
+    transform: scale(1);
+}
+.text{
+    font-size: 15px;
+    margin: 1px;
+    color: darkblue;
+    border: blue solid 2px;
+    background: lightcyan;
+}
+input:focus{
+    border-left: red solid 2px;
+    background: white;
+    border-right: red solid 2px;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+}
+textarea:focus{
+    border-left: red solid 2px;
+    background: white;
+    border-right: red solid 2px;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+}
+
+select:focus{
+    border-left: red solid 2px;
+    background: white;
+    border-right: red solid 2px;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+}
+.date{
+    border:blue solid 2px;
+    background: lightcyan;
+}
+input:focus-visible {
+    outline: 0px white solid;
+}
